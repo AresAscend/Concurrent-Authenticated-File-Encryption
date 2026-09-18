@@ -1,0 +1,21 @@
+# Build output
+encrypt_decrypt
+*.o
+
+# Local environment values (may contain CAFE_PASSPHRASE)
+.env
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Benchmark scratch files
+bench.sh
